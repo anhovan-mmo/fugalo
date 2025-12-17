@@ -1,0 +1,57 @@
+
+{
+  "name": "Fugalo Marketing Hub",
+  "short_name": "Fugalo CRM",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "description": "Hệ thống quản trị Marketing toàn diện: Quản lý công việc, Nhân sự, Ngân sách và AI Assistant.",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/KzXj0XJ.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.imgur.com/KzXj0XJ.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Việc của tôi",
+      "short_name": "Tasks",
+      "description": "Xem danh sách công việc cá nhân",
+      "url": "./?view=PERSONAL",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/9563/9563198.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Báo cáo ngày",
+      "short_name": "Report",
+      "description": "Gửi báo cáo công việc",
+      "url": "./?view=WORK_REPORTS",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.imgur.com/u5x1y1M.png", 
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard tổng quan"
+    },
+    {
+      "src": "https://i.imgur.com/u5x1y1M.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Giao diện Mobile"
+    }
+  ]
+}

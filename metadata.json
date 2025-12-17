@@ -1,0 +1,8 @@
+{
+  "name": "FUGALO | CRM Marketing Hub v14",
+  "description": "Hệ thống quản lý công việc, nhân sự và chiến dịch marketing tích hợp AI cho phòng Marketing Fugalo.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
